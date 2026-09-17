@@ -30,6 +30,12 @@ type AssetVariant = {
   bg?: string;
 };
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+function publicAsset(path: string) {
+  return `${basePath}${path}`;
+}
+
 const logoAssets: Asset[] = [
   {
     title: "Propuesta 01",
@@ -344,7 +350,7 @@ function ProposalAssetPreview({
       <p className="mb-3 text-center text-sm font-medium text-[#515554]">{label}</p>
       <div className={`grid h-[320px] place-items-center rounded-lg p-6 ${bg}`}>
         <Image
-          src={previewFile ?? file}
+          src={publicAsset(previewFile ?? file)}
           alt={title}
           width={width}
           height={height}
@@ -357,7 +363,7 @@ function ProposalAssetPreview({
       </div>
       <a
         className="mt-3 inline-flex w-full justify-center rounded-full bg-[#101112] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#2d3130]"
-        href={file}
+        href={publicAsset(file)}
         download
       >
         Descargar SVG
