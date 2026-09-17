@@ -1,0 +1,8 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="48" fill="#F8F5EF"/>
+  <circle cx="180" cy="180" r="82" fill="#174C43"/>
+  <path d="M156 184C156 151.967 178.967 129 211 129H222V151H211C191.118 151 178 164.118 178 184C178 203.882 191.118 217 211 217H222V239H211C178.967 239 156 216.033 156 184Z" fill="#D6A24B"/>
+  <path d="M194 185L239 230" stroke="#F8F5EF" stroke-width="22" stroke-linecap="round"/>
+  <text x="304" y="167" fill="#174C43" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">Qhipa</text>
+  <text x="308" y="211" fill="#7A6A58" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Brand memory system</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="360" rx="48" fill="#F3FAF7"/>
+  <path d="M129 191C129 134.667 165.667 98 222 98H280V156H222C196.667 156 187 165.667 187 191C187 216.333 196.667 226 222 226H280V284H222C165.667 284 129 247.333 129 191Z" fill="#0F766E"/>
+  <path d="M225 191L293 259" stroke="#F4B860" stroke-width="28" stroke-linecap="round"/>
+  <text x="340" y="172" fill="#0B3B36" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="-3">qhipa</text>
+  <text x="344" y="213" fill="#3B7C75" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">Identidad viva</text>
+</svg>
