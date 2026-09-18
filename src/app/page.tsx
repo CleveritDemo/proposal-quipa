@@ -38,6 +38,36 @@ function publicAsset(path: string) {
 
 const logoAssets: Asset[] = [
   {
+    title: "Marca actual",
+    description:
+      "Identidad vigente de Qhipa: nudo con gradiente magenta/cian, wordmark geométrico y tagline Agentic Platform.",
+    file: "/brand/qhipa-actual-6.svg",
+    bg: "bg-[#202329]",
+    width: 1110,
+    height: 377,
+    ogImage: {
+      label: "OG Image",
+      file: "/brand/og-imagen-d.png",
+      previewFile: "/brand/og-imagen-d.png?v=2",
+      width: 1200,
+      height: 628,
+      bg: "bg-white",
+    },
+    tokens: [
+      { name: "--qhipa-bg", value: "#202329", usage: "Fondo principal" },
+      { name: "--qhipa-white", value: "#FAFAFA", usage: "Logotipo principal" },
+      { name: "--qhipa-ink", value: "#26303B", usage: "Wordmark en superficies claras" },
+      { name: "--qhipa-accent", value: "#E04FA9", usage: "Punto de marca" },
+      { name: "--qhipa-gradient-start", value: "#E04FA9", usage: "Inicio gradiente" },
+      { name: "--qhipa-gradient-end", value: "#4CCEC9", usage: "Fin gradiente" },
+    ],
+    variants: [
+      { label: "Versión light", file: "/brand/light/qhipa-actual.svg", width: 1110, height: 377, bg: "bg-white" },
+      { label: "Isotipo", file: "/brand/qhipa-actual-5.svg", width: 230, height: 230 },
+      { label: "Vertical", file: "/brand/qhipa-actual-7.svg", width: 460, height: 424 },
+    ],
+  },
+  {
     title: "Propuesta 01",
     description: "Ruta visual A con contraste oscuro y acento violeta/magenta.",
     file: "/brand/quipa-logo-a-6.svg",
@@ -173,7 +203,7 @@ export default function Home() {
         <section className="grid gap-6 lg:grid-cols-[290px_1fr]">
           <aside className="grid content-start gap-5">
             <InfoCard title="Brand mínimo" icon="☷">
-              <InfoBlock label="Sistema visual" value="3 rutas" text="Cada propuesta cubre una dirección de marca con asset SVG descargable." />
+              <InfoBlock label="Sistema visual" value="4 rutas" text="Marca actual más tres propuestas, cada una con asset SVG descargable." />
               <InfoBlock label="Tokens" value="6 colores" text="Variables CSS copiables para llevar la identidad a producto." />
               <InfoBlock label="Formato" value="SVG" text="Logotipos preparados para web y documentación." />
             </InfoCard>
